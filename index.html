@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ANIMACION</title>
+        <link rel="icon" href="bola.jpg" type="image/x-icon">
+            <link rel="stylesheet" href="style.css" type="text/css" >
+    
+    </head>
+    <body>
+
+        <ul class="texto-animacion hidden ">
+            <li>M</li>
+            <li>A</li>
+            <li>N</li>
+            <li>U</li>    
+            <li>E</li>       
+            <li>L</li>
+        
+            <li>T</li>
+            <li>T</li>
+            <li>T</li>
+
+        </ul>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                setTimeout(function(){
+                    $('.texto-animacion').removeClass('hidden');
+                }, 500)
+            })
+        </script>
+
+        <audio  autoplay >
+         <source src="dross.mp3" type="audio/mpeg">
+        </audio>
+
+    </body>
+</html>
